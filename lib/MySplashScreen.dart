@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:splash_screen_view/SplashScreenView.dart';
-import 'package:fruits_recogniser_app/SecondScreen.dart';
+import 'package:fruits_recogniser_app/myHomePage.dart';
+
+
 
 class MysplashScrren extends StatefulWidget {
   const MysplashScrren({super.key});
@@ -13,7 +15,7 @@ class _MysplashScrrenState extends State<MysplashScrren> {
   @override
   Widget build(BuildContext context) {
     return SplashScreenView(
-      navigateRoute: SecondScreen(),
+      navigateRoute: myHomePage(),
       duration: 3000,
       imageSize: 130,
       text: 'Fruits Recogniser APP',
