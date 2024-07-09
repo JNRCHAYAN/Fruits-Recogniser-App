@@ -16,7 +16,8 @@ class _MysplashScrrenState extends State<MysplashScrren> {
       navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 130,
-      imageSrc: "fruits.png",
+      text: 'Fruits Recogniser APP',
+      imageSrc: "assets/images/fruits.png",
       backgroundColor: Colors.white,
     );
   }
