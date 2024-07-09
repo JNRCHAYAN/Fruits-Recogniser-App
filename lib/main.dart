@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fruits_recogniser_app/MySplashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Fruits Recogniser App',
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MysplashScrren(),
+
     );
   }
 }
